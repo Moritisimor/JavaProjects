@@ -14,8 +14,8 @@ public class Rechner {
         System.out.print("Bitte geben Sie Ihren Operator an: ");
         String operator = sc.nextLine();
 
-        int x = Integer.parseInt(mystring1);
-        int y = Integer.parseInt(mystring2);
+        Float x = Float.parseFloat(mystring1);
+        Float y = Float.parseFloat(mystring2);
 
         if (operator.equals("+")) {
         System.out.print("Ihr Ergebnis ist: ");
