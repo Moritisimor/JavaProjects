@@ -29,6 +29,9 @@ public class Rechner {
         System.out.print("Ihr Ergebnis ist: ");
         System.out.println(x * y); }
 
+        else if (operator.equals("/") && y == 0) {
+        System.out.println("Kann nicht mit null dividieren."); }
+
         else if (operator.equals("/")) {
         System.out.print("Ihr Ergebnis ist: ");
         System.out.println(x / y); }
