@@ -1,19 +1,25 @@
 package TestDatenBank;
 
 public class Person {
-    public static void vorname() {
-        System.out.print("Max"); }
+    String Vorname;
+    String Nachname;
+    String Adresse;
+    String Postleitzahl;
+    String Telefonnummer;
 
-    public static void nachname() {
-        System.out.print("Mustermann"); }
 
-    public static void adresse() {
-        System.out.print("Musterstraße 123"); }
+    public Person(String Vorname, String Nachname, String Adresse, String Postleitzahl, String Telefonnummer) {
+        this.Vorname = Vorname;
+        this.Nachname = Nachname;
+        this.Adresse = Adresse;
+        this.Postleitzahl = Postleitzahl;
+        this.Telefonnummer = Telefonnummer;
+        }
 
-    public static void postleitzahl() {
-        System.out.print("12345"); }
-
-    public static void telefonnummer() {
-        System.out.print("012345678910"); }
-        
+    public void Datenanzeige() {
+        System.out.println("Name: " + Vorname + " " + Nachname);
+        System.out.println("Adresse: " + Adresse);
+        System.out.println("Postleitzahl: " + Postleitzahl);
+        System.out.println("Telefonnummer: " + Telefonnummer);
+        }
 }
