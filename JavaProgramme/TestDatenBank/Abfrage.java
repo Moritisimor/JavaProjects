@@ -10,12 +10,12 @@ public class Abfrage {
         System.out.println("-" + "Postleitzahl");
         System.out.println("-" + "Telefonnummer");
 
-        System.out.println("Und folgende Personen: ");
+        System.out.println("Und folgende Einträge:");
         System.out.println("-" + "maxmustermann1");
         System.out.println("-" + "hanswurst1");
         System.out.println("-" + "erikablume1");
 
-        System.out.print("Geben Sie an, über welche Person Sie Daten abfragen möchten: ");
+        System.out.print("Geben Sie an, über welchen Eintrag abfragen möchten: ");
 
         Scanner sc = new Scanner(System.in);
 
@@ -34,7 +34,7 @@ public class Abfrage {
         }
 
         else {
-            System.out.println("Diese Person ist in der Datenbank nicht vorhanden.");
+            System.out.println("Dieser Eintrag ist in der Datenbank nicht vorhanden.");
         }
 
         sc.close();
