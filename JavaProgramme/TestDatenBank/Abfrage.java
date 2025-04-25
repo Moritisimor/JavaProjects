@@ -4,13 +4,12 @@ import java.util.Scanner;
 public class Abfrage {
     public static void main(String[] args) {
         System.out.println("Folgende Daten sind momentan verfügbar:");
-        System.out.println("-" + "Vorname ");
+        System.out.println("-" + "Vorname");
         System.out.println("-" + "Nachname");
         System.out.println("-" + "Adresse ");
         System.out.println("-" + "Postleitzahl");
         System.out.println("-" + "Telefonnummer");
 
-        System.out.println(" ");
         System.out.println("Und folgende Personen: ");
         System.out.println("-" + "maxmustermann1");
         System.out.println("-" + "hanswurst1");
