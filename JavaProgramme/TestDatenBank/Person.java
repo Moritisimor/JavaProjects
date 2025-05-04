@@ -7,7 +7,6 @@ public class Person {
     String Postleitzahl;
     String Telefonnummer;
 
-
     public Person(String Vorname, String Nachname, String Adresse, String Postleitzahl, String Telefonnummer) {
         this.Vorname = Vorname;
         this.Nachname = Nachname;

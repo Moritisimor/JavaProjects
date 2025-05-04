@@ -10,12 +10,12 @@ public class Abfrage {
         System.out.println("-" + "Postleitzahl");
         System.out.println("-" + "Telefonnummer");
 
-        System.out.println("Und folgende Einträge:");
+        System.out.println("Und folgende Einträge: ");
         System.out.println("-" + "maxmustermann1");
         System.out.println("-" + "hanswurst1");
         System.out.println("-" + "erikablume1");
 
-        System.out.print("Geben Sie an, über welchen Eintrag abfragen möchten: ");
+        System.out.print("Geben Sie an, über welchen Eintrag Sie Daten abfragen möchten: ");
 
         Scanner sc = new Scanner(System.in);
 
