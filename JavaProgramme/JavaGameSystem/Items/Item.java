@@ -1,7 +1,7 @@
 package JavaGameSystem.Items;
 
 public class Item {
-    String name;
+    String itemname;
     String rarity;
     Integer durability;
 }

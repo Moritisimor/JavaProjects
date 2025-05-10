@@ -1,39 +1,39 @@
 package JavaGameSystem.NPCs;
 
 public class NPC {
-    String name;
-    Integer health;
-    Integer damage;
-    Boolean hostile;
-    Boolean interactive;
-    Boolean unique;
+    private String npcname;
+    private Integer npchealth;
+    private Integer npcdamage;
+    private Boolean hostile;
+    private Boolean interactive;
+    private Boolean unique;
 
     public void move() {
-        System.out.println(name + " moves.");
+        System.out.println(npcname + " moves.");
     }
 
     public void attackbehaviour() {
         if (hostile) {
-            System.out.println(name + " attacks!");
+            System.out.println(npcname + " attacks!");
         }
         else {
-            System.out.println(name + " runs away!");
+            System.out.println(npcname + " runs away!");
         }
     }
 
     public NPC(String name, Integer health, Integer damage, Boolean hostile, Boolean interactive, Boolean unique) {
-        this.name = name;
-        this.health = health;
-        this.damage = damage; 
+        this.npcname = name;
+        this.npchealth = health;
+        this.npcdamage = damage; 
         this.hostile = hostile;
         this.interactive = interactive;
         this.unique = unique;
     }
 
     public void info() {
-        System.out.println("Name: " + name);
-        System.out.println("Health: " + health);
-        System.out.println("Damage: " + damage);
+        System.out.println("Name: " + npcname);
+        System.out.println("Health: " + npchealth);
+        System.out.println("Damage: " + npcdamage);
         if (hostile) {
             System.out.println("Hostile");
         }
