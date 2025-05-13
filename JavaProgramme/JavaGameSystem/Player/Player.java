@@ -34,6 +34,15 @@ public class Player {
         return speed;
     }
 
+    public void getAllData() {
+        getPlayerName();
+        getEquippedWeapon();
+        getHealth();
+        getWisdom();
+        getStrength();
+        getSpeed();
+    }
+
     //Getters end here.
 
     //Setters start here.
