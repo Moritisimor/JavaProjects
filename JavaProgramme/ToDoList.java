@@ -61,6 +61,7 @@ public class ToDoList {
                 }
             }
             else if (query.equalsIgnoreCase("Mark existing Task as done")){
+                System.out.println("Set Existing Task as done.");
                 newTask.setIsDone(true);
             }
             else if (query.equalsIgnoreCase("exit")) {
