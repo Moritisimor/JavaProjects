@@ -7,7 +7,7 @@ public class Weapons extends Item {
     Boolean ranged;
 
     public Weapons(String name, String rarity, String type, String enchantment, Integer damage, Integer durability, Boolean ranged) {
-        this.name = name;
+        this.itemname = name;
         this.rarity = rarity;
         this.type = type;
         this.enchantment = enchantment;
