@@ -21,10 +21,10 @@ public abstract class Tier {
 	public String getNahrung() {
 	       return nahrung;	
 	}
-	public int getAnzahlBeine() {
+	public Integer getAnzahlBeine() {
 		return anzahlBeine;
 	}
-	public boolean getDichtesFell() {
+	public Boolean getDichtesFell() {
 		return dichtesFell;
 	}
 

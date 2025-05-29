@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Rechner {
     public static void main(String[] args) {
         try {
@@ -35,13 +34,11 @@ public class Rechner {
             else if (operator.equals("/")) {
             System.out.print("Ihr Ergebnis ist: ");
             System.out.println(x / y); }
-
             else {
             System.out.println("Bitte geben Sie einen gültigen Operator an."); }
 
         sc.close(); }
         catch(NumberFormatException e) {
             System.out.println("Bitte geben Sie eine gültige Zahl an."); }    
-        
     }
 }
