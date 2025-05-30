@@ -27,6 +27,18 @@ public abstract class Tier {
 	public Boolean getDichtesFell() {
 		return dichtesFell;
 	}
+	public void getAllData() {
+		System.out.println("Name: " + getName());
+		System.out.println("Habitat: " + getHabitat());
+		System.out.println("Farbe: " + getFarbe());
+		System.out.println("Nahrung: " + getNahrung());
+		System.out.println("Anzahl von Beinen: " + getAnzahlBeine());
+		if (dichtesFell) {
+			System.out.println("Dieses Tier hat dichtes Fell.");
+		} else {
+			System.out.println("Dieses Tier hat kein dichtes Fell.");
+		}
+	}
 
 	public void setName(String name) {
 		this.name = name;
